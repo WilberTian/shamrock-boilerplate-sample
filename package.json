@@ -1,0 +1,29 @@
+{
+  "name": "shamrock-boilerplate-sample",
+  "version": "1.0.0",
+  "description": "shamrock boilerplate sample",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node ./scripts/dev.js",
+    "build": "NODE_ENV=production node ./scripts/build.js",
+    "release": "node ./scripts/release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilberTian/shamrock-boilerplate-sample.git"
+  },
+  "author": "WilberTian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WilberTian/shamrock-boilerplate-sample/issues"
+  },
+  "homepage": "https://github.com/WilberTian/shamrock-boilerplate-sample#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "execa": "^0.10.0",
+    "listr": "^0.14.0"
+  }
+}
